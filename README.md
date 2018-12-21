@@ -3,7 +3,7 @@ This is a VR template for UE4 that allows gamepad and motion controller input. T
 
 The template supports UE4 version 4.21
 
-If you are using the UE4 launcher, put the template into UE4 by putting the TP_VRHands_BP folder into: 
+If you are using the UE4 launcher, put the template into UE4 by putting the TP_3D_Menu folder into: 
 C:\Program Files\Epic Games\UE_4.21\Templates
 
 <a href="https://docs.unrealengine.com/en-US/Engine/Basics/Projects/CreatingTemplates" target="_blank">See Creating Templates for help setting up.</a>
