@@ -1,7 +1,7 @@
 # UE4-VR-XPlatform-Menu
 This is a VR template for UE4 that allows gamepad and motion controller input. The game can be set up for non-vr thirdperson games too. Blueprint Virtual Reality Template for Desktop and Playstation VR. The template features a Touchscreen UI, Increment Teleport, Grabbing from a distance, Highlight, and Fist Motion Movement, a 3D Menu with Gamepad/Keyboard Navigation, Gamepad VR support, VR and Third person Modes, and Third Person Mode to First Person camera. The MotionControllerMap lets players get around around using motion controllers with Increment move, Teleport, and Fist Motion Movement.
 
-The template supports UE4 version 4.21
+The template supports UE4 version 4.21 to 4.23. Breaking changes were in 4.24 because the [motion controller keys were depreciated](https://docs.unrealengine.com/en-US/Platforms/VR/DevelopVR/MotionControllerKeyDeprecation/index.html) for OpenXR support. I am currently updating the template right now to 4.25 and it should be out soon.
 
 If you are using the UE4 launcher, put the template into UE4 by putting the TP_3D_Menu folder into: 
 C:\Program Files\Epic Games\UE_4.21\Templates
