@@ -1,10 +1,14 @@
 # UE4-VR-XPlatform-Menu
 This is a VR template for UE4 that allows gamepad and motion controller input. The game can be set up for non-vr thirdperson games too. Blueprint Virtual Reality Template for Desktop and Playstation VR. The template features a Touchscreen UI, Increment Teleport, Grabbing from a distance, Highlight, and Fist Motion Movement, a 3D Menu with Gamepad/Keyboard Navigation, Gamepad VR support, VR and Third person Modes, and Third Person Mode to First Person camera. The MotionControllerMap lets players get around around using motion controllers with Increment move, Teleport, and Fist Motion Movement.
 
-The template supports UE4 version 4.21 to 4.23. Breaking changes were in 4.24 because the [motion controller keys were depreciated](https://docs.unrealengine.com/en-US/Platforms/VR/DevelopVR/MotionControllerKeyDeprecation/index.html) for OpenXR support. I am currently updating the template right now to 4.25 and it should be out soon.
+## UE4 4.25, C++ template, Oculus supported unless modified, can support other headsets if OpenXR plugin works and is enabled
 
-If you are using the UE4 launcher, put the template into UE4 by putting the TP_3D_Menu folder into: 
-C:\Program Files\Epic Games\UE_4.21\Templates
+[OpenXR production ready](https://trello.com/c/p0ROFB2t) is a card for future release on the [UE4 Roadmap](https://trello.com/b/TTAVI7Ny/ue4-roadmap)
+
+The template supports UE4 version 4.25. because the [motion controller keys were depreciated](https://docs.unrealengine.com/en-US/Platforms/VR/DevelopVR/MotionControllerKeyDeprecation/index.html) for OpenXR support, I had to convert this into a C++ template in order to access the Oculus Motion controller EKey structs so that the hands can be switched. This only supports Oculus unless you modify it yourself or the OpenXR plugin starts working and emulates the mapping to other headsets.
+
+If you are using the UE4 launcher, put the template into UE4 by putting the FP_3D_Menu folder into: 
+C:\Program Files\Epic Games\UE_4.25\Templates
 
 <a href="https://docs.unrealengine.com/en-US/Engine/Basics/Projects/CreatingTemplates" target="_blank">See Creating Templates for help setting up.</a>
 
